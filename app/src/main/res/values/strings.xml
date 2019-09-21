@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Voilence_Protector</string>
+    <string name="app_name">Safe Click</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -15,4 +15,10 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_login2">Login2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list_contact">List of Contacts</string>
+    <string name="list_hospital">Nearest Hospital</string>
+    <string name="list_police">Nearest Policestation</string>
 </resources>

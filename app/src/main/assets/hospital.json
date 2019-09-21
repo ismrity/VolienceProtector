@@ -1,0 +1,132 @@
+{
+  "status": true,
+  "data": [
+    {
+      "hospital": "TU Teaching Hospital",
+      "latitude": "27.736086",
+      "longitude": "85.330249",
+      "phone": "01-4412303"
+
+    },{
+      "hospital": "Bir Hospital",
+      "latitude": "27.705250",
+      "longitude": "85.312786",
+      "phone": "01-4221119"
+
+    },{
+      "hospital": "Vayodha Hospital",
+      "latitude": "27.684286",
+      "longitude": "85.29835",
+      "phone": "01-4286428"
+
+    },{
+      "hospital": "Midat Hospital",
+      "latitude": "27.66682",
+      "longitude": "85.324624",
+      "phone": "01-5547370"
+
+    },{
+      "hospital": "Norvic Hospital",
+      "latitude": "27.68999",
+      "longitude": "85.319065",
+      "phone": "01-4258554"
+
+    },{
+      "hospital": "Kathmandu Medical College",
+      "latitude": "27.695849",
+      "longitude": "85.353372",
+      "phone": "01-4469064"
+
+    },{
+      "hospital": "Alka Hospital",
+      "latitude": "27.674353",
+      "longitude": "85.315132",
+      "phone": "01-5555555"
+
+    },{
+      "hospital": "Ishan Hospital",
+      "latitude": "27.7423432",
+      "longitude": "85.3307972",
+      "phone": "01-4270536"
+
+    },{
+      "hospital": "KIST Medical College",
+      "latitude": "27.662944",
+      "longitude": "85.335093",
+      "phone": "01-5201496"
+
+    },{
+      "hospital": "Nepal Mediciti Hospital",
+      "latitude": "27.662311",
+      "longitude": "85.303076",
+      "phone": "01-4217766"
+
+    },{
+      "hospital": "Patan Hospital",
+      "latitude": "27.6683",
+      "longitude": "85.320566",
+      "phone": "01-5522295"
+
+    },{
+      "hospital": "Kantipur Hospital",
+      "latitude": "27.685593",
+      "longitude": "85.3448",
+      "phone": "01-4111627"
+
+    },{
+      "hospital": "Kathmandu Neuro Hospital",
+      "latitude": "27.699371",
+      "longitude": "85.310726",
+      "phone": "01-4227735"
+
+    },{
+      "hospital": "Grande Hospital",
+      "latitude": "27.7801376",
+      "longitude": "85.3046231",
+      "phone": "01-5159266"
+
+    },{
+      "hospital": "Nobel Hospital",
+      "latitude": "27.697956",
+      "longitude": "85.348188",
+      "phone": "01-4110842"
+
+    },{
+      "hospital": "Civil Service Hospital",
+      "latitude": "27.686325",
+      "longitude": "85.338814",
+      "phone": "01-4107000"
+
+    },{
+      "hospital": "Om Hospital ",
+      "latitude": "27.721419",
+      "longitude": "85.344798",
+      "phone": "01-4476225"
+
+    },{
+      "hospital": "Nidan Hospital",
+      "latitude": "27.67899",
+      "longitude": "85.315876",
+      "phone": "01-5531333"
+
+    },{
+      "hospital": "Manmohan hospital",
+      "latitude": "27.713586",
+      "longitude": "85.281475",
+      "phone": "01-4034531"
+
+    },{
+      "hospital": "Nepal Cancer Hospital ",
+      "latitude": "27.643535",
+      "longitude": "85.339154",
+      "phone": "01-5251312"
+
+    },{
+      "hospital": "Sumeru City Hospital",
+      "latitude": "27.676004",
+      "longitude": "85.314725",
+      "phone": "01-5275377"
+
+    }
+  ]
+}

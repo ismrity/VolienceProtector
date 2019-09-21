@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/below"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_name_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Name of hospital: "/>
+
+        <TextView
+            android:id="@+id/txt_name_of_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt_name_hospital"
+            android:layout_marginStart="15dp"
+            android:textSize="14dp"
+            tools:text="x"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/txt_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/txt_name_hospital"
+            android:text="Distance from you:"/>
+
+        <TextView
+            android:id="@+id/txt_distance_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt_distance"
+            android:layout_below="@id/txt_name_hospital"
+            android:layout_marginStart="15dp"
+            android:textSize="14dp"
+            tools:text="x"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/txt_name_hospital"
+            android:text="Phone no:"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_phone_value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt_phone"
+            android:layout_below="@id/txt_name_hospital"
+            android:layout_marginStart="72dp"
+            android:textSize="14dp"
+            tools:text="x"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp" />
+    </RelativeLayout>
+
+</LinearLayout>

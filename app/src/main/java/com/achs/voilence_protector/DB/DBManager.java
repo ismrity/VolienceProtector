@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class DBManager {
 
-    private DatabaseHelper dbHelper;
+    private CountriesDBHelper dbHelper;
 
     private Context context;
 
@@ -18,7 +18,7 @@ public class DBManager {
     }
 
     public DBManager open() throws SQLException {
-        dbHelper = new DatabaseHelper(context);
+        dbHelper = new CountriesDBHelper(context);
         database = dbHelper.getWritableDatabase();
         return this;
     }
@@ -29,14 +29,14 @@ public class DBManager {
 
     public void insert(String name, String desc) {
         ContentValues contentValue = new ContentValues();
-        contentValue.put(DatabaseHelper.SUBJECT, name);
-        contentValue.put(DatabaseHelper.DESC, desc);
-        database.insert(DatabaseHelper.TABLE_NAME, null, contentValue);
+        contentValue.put(CountriesDBHelper.SUBJECT, name);
+        contentValue.put(CountriesDBHelper.DESC, desc);
+        database.insert(CountriesDBHelper.TABLE_NAME, null, contentValue);
     }
 
 
     public int getContactCount() {
-        String countQuery = "SELECT * FROM " + DatabaseHelper.TABLE_NAME;
+        String countQuery = "SELECT * FROM " + CountriesDBHelper.TABLE_NAME;
         Cursor cursor = database.rawQuery(countQuery, null);
 
 // return count
@@ -45,8 +45,8 @@ public class DBManager {
     }
 
     public Cursor fetch() {
-        String[] columns = new String[] { DatabaseHelper._ID, DatabaseHelper.SUBJECT, DatabaseHelper.DESC };
-        Cursor cursor = database.query(DatabaseHelper.TABLE_NAME, columns, null, null, null, null, null);
+        String[] columns = new String[] { CountriesDBHelper._ID, CountriesDBHelper.SUBJECT, CountriesDBHelper.DESC };
+        Cursor cursor = database.query(CountriesDBHelper.TABLE_NAME, columns, null, null, null, null, null);
         if (cursor != null) {
             cursor.moveToFirst();
         }
@@ -55,14 +55,14 @@ public class DBManager {
 
     public int update(long _id, String name, String desc) {
         ContentValues contentValues = new ContentValues();
-        contentValues.put(DatabaseHelper.SUBJECT, name);
-        contentValues.put(DatabaseHelper.DESC, desc);
-        int i = database.update(DatabaseHelper.TABLE_NAME, contentValues, DatabaseHelper._ID + " = " + _id, null);
+        contentValues.put(CountriesDBHelper.SUBJECT, name);
+        contentValues.put(CountriesDBHelper.DESC, desc);
+        int i = database.update(CountriesDBHelper.TABLE_NAME, contentValues, CountriesDBHelper._ID + " = " + _id, null);
         return i;
     }
 
     public void delete(long _id) {
-        database.delete(DatabaseHelper.TABLE_NAME, DatabaseHelper._ID + "=" + _id, null);
+        database.delete(CountriesDBHelper.TABLE_NAME, CountriesDBHelper._ID + "=" + _id, null);
     }
 
 }

@@ -1,0 +1,63 @@
+{
+  "status": true,
+  "data": [
+    {
+      "police": "Kalimati",
+      "latitude": "27.697347",
+      "longitude": "85.299529",
+      "phone": "01-4270536"
+    },{
+      "police": "Maharajgunj",
+      "latitude": "27.739426",
+      "longitude": "85.348983",
+      "phone": "9851283007"
+    },{
+      "police": "Koteshwor",
+      "latitude": "27.678792",
+      "longitude": "85.348983",
+      "phone": "01-4600739"
+    },{
+      "police": "Thimi ",
+      "latitude": "27.682068",
+      "longitude": "85.391489",
+      "phone":"9851282599"
+    },{
+      "police": "Tinkune",
+      "latitude": "27.686028",
+      "longitude": "85.344068",
+      "phone": "01-4411210"
+    },{
+      "police": "Kathmandu Metropolitan",
+      "latitude": "27.671892",
+      "longitude": "85.325895",
+      "phone": "9851283835"
+    },{
+      "police": "Swayambhu",
+      "latitude": "27.713699",
+      "longitude": "85.292608",
+      "phone": "01-4244444"
+    },{
+      "police": "Metropolitan,Chagal",
+      "latitude": "27.705274",
+      "longitude": "85.303730",
+      "phone": "01-4280630"
+
+    },{
+      "police": "Nayabasthi ",
+      "latitude": "27.717736",
+      "longitude": "85.367461",
+      "phone":"981-8982574"
+    },{
+      "police": "Chapagaun",
+      "latitude": "27.608306",
+      "longitude": "85.324415",
+      "phone":" 01-5570511"
+    },{
+
+      "police": "Checkpost policestation",
+      "latitude": "27.718052",
+      "longitude": "85.220026",
+      "phone":"01-4310191"
+    }
+  ]
+}

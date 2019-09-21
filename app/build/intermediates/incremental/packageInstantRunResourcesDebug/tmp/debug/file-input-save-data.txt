@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Wed Aug 07 13:18:17 NPT 2019
+1.base=C\:\\Users\\lenovo\\Downloads\\VolienceProtector-20190806T080810Z-001\\VolienceProtector\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.path=police.json
+0.baseType=DIRECTORY
+2.base=C\:\\Users\\lenovo\\Downloads\\VolienceProtector-20190806T080810Z-001\\VolienceProtector\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=Nepalgov_laws.pdf
+0.set=ASSET
+0.base=C\:\\Users\\lenovo\\Downloads\\VolienceProtector-20190806T080810Z-001\\VolienceProtector\\app\\build\\intermediates\\merged_assets\\debug\\out
+2.baseType=DIRECTORY
+1.path=hospital.json

@@ -32,4 +32,9 @@
         </menu>
     </item>
 
+    <item
+        android:id="@+id/btn_logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Logout"/>
+
 </menu>

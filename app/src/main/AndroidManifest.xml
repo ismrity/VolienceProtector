@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.achs.voilence_protector">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/safe_click"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/safe_click"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DataListActivity"></activity>
+        <activity android:name=".Activity.DataListActivity" />
         <activity
-            android:name=".Login2"
+            android:name=".Activity.SideNavigationActivity"
             android:label="@string/title_activity_login2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Activity.RegistrationActivity">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Laws" />
-        <activity android:name=".Police" />
-        <activity android:name=".Hospital" />
-        <activity android:name=".Login_Form" />
-        <activity android:name=".DashboardActivity"></activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ContactAddActivity"></activity>
+        <activity android:name=".Activity.LawsActivity" />
+        <activity android:name=".Activity.PoliceActivity" />
+        <activity android:name=".Activity.HospitalActivity" />
+        <activity android:name=".Activity.DashboardActivity">
+
+
+        </activity>
+        <activity android:name=".Activity.EmergencyContactActivity.EmergencyContactActivity"></activity>
     </application>
 
 </manifest>
